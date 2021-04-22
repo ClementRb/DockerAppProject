@@ -2,6 +2,12 @@
 
 Ce projet Docker permet de déployer plus simplement le projet [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) et [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) avec une base de donnée [mongoDB](https://www.mongodb.com/fr) en local.
 
+La base de donnée mongo est basé sur une image [mongo](https://hub.docker.com/_/mongo) avec une la création d'une base **demodb**
+
+Une [image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) Docker de [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) est utilisé pour le frontend
+
+l'[image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) Docker de [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) est utilisé pour le backend
+
 ## Installation
 
 Cloner le projet.
