@@ -1,24 +1,24 @@
 # DockerAppProject
 
-Ce projet Docker permet de déployer plus simplement le projet [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) et [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) avec une base de donnée [mongoDB](https://www.mongodb.com/fr) en local.
+This Docker project allows for easier deployment of the [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) and [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) projects with a local [mongoDB](https://www.mongodb.com/fr) database.
 
-La base de donnée mongo est basé sur une image [mongo](https://hub.docker.com/_/mongo) avec une la création d'une base **demodb**
+The MongoDB database is based on an image [mongo](https://hub.docker.com/_/mongo) with the creation of a **demodb** database.
 
-Une [image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) Docker de [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) est utilisé pour le frontend
+A Docker [image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) of [online-wallet-frontend](https://github.com/ClementRb/online-wallet-frontend) is used for the frontend.
 
-l'[image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) Docker de [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) est utilisé pour le backend
+The Docker [image](https://hub.docker.com/repository/docker/clementrb/online-wallet-backend) of [online-wallet-backend](https://github.com/ClementRb/online-wallet-backend) is used for the backend.
 
 ## Installation
 
-Cloner le projet.
+Clone the project.
 
 ```bash
 git clone https://github.com/ClementRb/DockerAppProject.git
 ```
 
-## Utilisation
+## Usage
 
-Il est recommandé de démarrer les 3 conteneurs dans 3 shell différents pour avoir une meilleur vue des conteneurs.
+It is recommended to start the 3 containers in 3 different shells to have a better view of the containers.
 
 ```bash
 docker-compose up mongodb
