@@ -29,7 +29,7 @@ docker-compose up frontend
 
 ```
 
-L'api est accessible à l'adresse [localhost:5000](localhost:5000), l'app est à l'adresse [localhost:3000](localhost:3000)
+The API is accessible at the address [localhost:5000](localhost:5000), and the App at the address [localhost:3000](localhost:3000)
 
 ## License
 
